@@ -18,7 +18,7 @@ public class App
     	
 //        System.out.println( "Hello World!" );
 //        Vehicle obj = new Bike();
-    	Vehicle obj = (Vehicle)context.getBean("vehicle");
+    	Vehicle obj = (Vehicle)context.getBean("bike");
         obj.drive();
     }
     
