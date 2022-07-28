@@ -12,9 +12,9 @@
    
 	<!-- <bean id="vehicle" class="com.pulkit.FirstMavenProject.Bike"></bean> -->
 	
-	<bean id="tyre" class="com.pulkit.FirstMavenProject.Tyre">
-	<!-- 	<property name="brand" value="Ceat"></property> -->
+	<!-- <bean id="tyre" class="com.pulkit.FirstMavenProject.Tyre">
+		<property name="brand" value="Ceat"></property>
 	<constructor-arg value="MRF"></constructor-arg>
-	</bean>
+	</bean> -->
 	
 </beans>
