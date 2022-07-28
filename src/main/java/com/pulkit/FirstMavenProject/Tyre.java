@@ -19,7 +19,7 @@ public class Tyre {
 
 	@Override
 	public String toString() {
-		return "Tyre [brand=" + brand + "]";
+		return  brand + " Tyre";
 	}
 	
 	
