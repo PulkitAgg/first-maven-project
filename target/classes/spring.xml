@@ -12,4 +12,8 @@
    
 	<!-- <bean id="vehicle" class="com.pulkit.FirstMavenProject.Bike"></bean> -->
 	
+	<bean id="tyre" class="com.pulkit.FirstMavenProject.Tyre">
+		<property name="brand" value="MRF"></property>
+	</bean>
+	
 </beans>

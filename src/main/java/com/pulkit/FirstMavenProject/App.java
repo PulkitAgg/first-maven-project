@@ -16,10 +16,13 @@ public class App
 //    	ApplicationContext super set of beanFactory
     	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
     	
-//        System.out.println( "Hello World!" );
-//        Vehicle obj = new Bike();
+
+//      Vehicle obj = new Bike();
     	Vehicle obj = (Vehicle)context.getBean("bike");
         obj.drive();
+        
+        Tyre t = (Tyre)context.getBean("tyre");
+        System.out.print(t);
     }
     
 }
